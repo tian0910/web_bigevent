@@ -55,6 +55,7 @@ $(function() {
                 localStorage.setItem('token', res.token)
                 // 跳转到后台主页
                 location.href = '/index.html'
+                
             }
         })
     })
